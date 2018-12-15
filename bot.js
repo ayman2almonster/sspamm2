@@ -7,8 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "523495843454779404"; // ÇíĎí ÇáÓŃŃÝŃ
-var channel = "523495843454779406";//ÇíĎí ÇáŃćă
+var server = "523495843454779404"; 
+var channel = "523495843454779406";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Dream  , Dream , Dream Dream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , Dreamayman, Dream ,Dream , Dream , Dream , Dream Dream, Dream , Dream ,Dream , Dream , Dream , Dream Dream , Dream, Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },500);
@@ -24,7 +24,7 @@ client.on('message', message => {
   let args = message.content.split(" ").slice(1);
 
   if (command == "say") {
-if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`áíÓ áĎíß ŐáÇÍíÇĘ`**');
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\**');
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
