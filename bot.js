@@ -1,14 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "5";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
 });
 
 client.on('ready', async() => {
-var server = "523495843454779404"; 
-var channel = "523495843454779406";
+var server = "534285303863705601"; 
+var channel = "535524227227582464";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Dream  , Dream , Dream Dream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , DreamDream  , Dream , Dreamayman, Dream ,Dream , Dream , Dream , Dream Dream, Dream , Dream ,Dream , Dream , Dream , Dream Dream , Dream, Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },500);
